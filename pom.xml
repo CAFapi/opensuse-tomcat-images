@@ -188,13 +188,13 @@
                 <configuration>
                     <imageManagement>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jre17</repository>
-                            <tag>6.0.1</tag>
-                            <digest>sha256:7647578b225b5d8ca776e116fca1bea5834ee2955af3bd74b2168bacfe5b84ce</digest>
+                            <targetRepository>cafapi/opensuse-jre17</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jre21-7.0.0-US1049088-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/opensuse/leap</repository>
-                            <tag>latest</tag>
+                            <tag>16.0</tag>
                         </image>
                     </imageManagement>
                 </configuration>
