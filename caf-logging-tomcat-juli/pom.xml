@@ -104,7 +104,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>com.github.tomcat-slf4j-logback</groupId>
-                                    <artifactId>tomcat10-slf4j-logback</artifactId>
+                                    <artifactId>tomcat11-slf4j-logback</artifactId>
                                     <overWrite>true</overWrite>
                                     <outputDirectory>${project.build.directory}/tomcat10-slf4j-logback</outputDirectory>
                                 </artifactItem>
