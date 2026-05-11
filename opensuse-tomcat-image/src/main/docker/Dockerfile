@@ -18,6 +18,7 @@
 # Preliminary image, makes some modifications to the JULI image
 #
 ARG JULI_IMAGE
+ARG JAVA_VERSION
 FROM $JULI_IMAGE AS builder
 
 RUN zypper -n install libxslt-tools
@@ -59,7 +60,7 @@ RUN mkdir -p $WDBUILDER/usr/share && \
 #
 # The actual image definition
 #
-FROM ${projectDockerRegistry}/cafapi/opensuse-jre17
+FROM ${projectDockerRegistry}/cafapi/opensuse-jre$JAVA_VERSION
 
 RUN zypper -n refresh && \
     zypper -n update && \
