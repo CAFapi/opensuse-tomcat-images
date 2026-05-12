@@ -101,10 +101,8 @@
                         <goals>
                             <goal>push</goal>
                         </goals>
-                         <configuration>
-                            <filter>opensuse-tomcat-jre17</filter>
-                            <filter>opensuse-tomcat-jre21</filter>
-                            <filter>opensuse-tomcat-jre25</filter>
+                        <configuration>
+                            <filter>opensuse-tomcat-jre17,opensuse-tomcat-jre21,opensuse-tomcat-jre25</filter>
                         </configuration>
                     </execution>
                 </executions>

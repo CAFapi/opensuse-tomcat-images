@@ -64,10 +64,8 @@
                         <goals>
                             <goal>push</goal>
                         </goals>
-                         <configuration>
-                            <filter>opensuse-tomcat-juli-jre17</filter>
-                            <filter>opensuse-tomcat-juli-jre21</filter>
-                            <filter>opensuse-tomcat-juli-jre25</filter>
+                        <configuration>
+                            <filter>opensuse-tomcat-juli-jre17,opensuse-tomcat-juli-jre21,opensuse-tomcat-juli-jre25</filter>
                         </configuration>
                     </execution>
                 </executions>
