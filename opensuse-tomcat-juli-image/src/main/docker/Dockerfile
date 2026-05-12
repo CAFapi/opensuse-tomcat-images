@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+ARG JAVA_VERSION
+
 #
 # Preliminary image that downloads Tomcat and makes some modifications
 #
@@ -54,7 +56,7 @@ RUN chmod +x root/startup/startup.d/*
 #
 # The actual image definition
 #
-FROM ${projectDockerRegistry}/cafapi/opensuse-jre17
+FROM ${projectDockerRegistry}/cafapi/opensuse-jre$JAVA_VERSION
 
 RUN zypper -n refresh && \
     zypper -n update && \
