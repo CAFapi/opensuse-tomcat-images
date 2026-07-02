@@ -193,18 +193,18 @@
                     <imageManagement>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jre17</repository>
-                            <tag>7.0.1</tag>
-                            <digest>sha256:c4a1db25b116ae0dbead2e7e67cf16014ae920a7e089e191961c7439337ee256</digest>
+                            <tag>7.0.2</tag>
+                            <digest>sha256:85ae689b66aeb729ca5ee5573107c07f64231da5194c4cc1b2216ce65873d000</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jre21</repository>
-                            <tag>7.0.1</tag>
-                            <digest>sha256:f0af08e5753a11c3c9095a5037686f2515063d85c50bd857215aac99ac718fe2</digest>
+                            <tag>7.0.2</tag>
+                            <digest>sha256:d1b8c3467a16cab3aa81e35a3db364f8d94f7d328b53f5aa8dd5b0059ea274b2</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jre25</repository>
-                            <tag>7.0.1</tag>
-                            <digest>sha256:21449b603f02742f8428a44c1a77513ccae0c9db26742907767e1cfb1ddfb22c</digest>
+                            <tag>7.0.2</tag>
+                            <digest>sha256:1e8d869426d707df22efb3be3963c02117cb5484d6d8581a133b5448c02a630f</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/opensuse/leap</repository>
